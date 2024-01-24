@@ -68,6 +68,10 @@ This Django CRUD (Create, Read, Update, Delete) project provides a simple web ap
     * **urls.py:** Main URL routing for the project.
     * **...**
 
+## Screenshot
+
+![Alt text](image.png)
+
 ## Contributing
 
 Contributions are welcome! Fork the repository and create a pull request with your changes.
