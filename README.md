@@ -55,17 +55,20 @@ This Django CRUD (Create, Read, Update, Delete) project provides a simple web ap
 
 ## Project Structure
 
-* ``**`myapp/:`** Django app containing the main logic.``
+* **myapp/:** Django app containing the main logic.
 
-templates/: HTML templates for rendering views.
-static/: Static files such as CSS stylesheets and JavaScript.
-views.py: Contains views for rendering pages and handling form submissions.
-models.py: Defines the data models.
-...
-crud_project/: Project-level settings and configurations.
+    * **templates/:** HTML templates for rendering views.
+    * **static/:** Static files such as CSS stylesheets and JavaScript.
+    * **views.py:** Contains views for rendering pages and handling form submissions.
+    * **models.py:** Defines the data models.
+    * **...**
 
-settings.py: Django project settings.
-urls.py: Main URL routing for the project.
-...
-Contributing
+**crud_project/:** Project-level settings and configurations.
+
+   * **settings.py:** Django project settings.
+   * **urls.py:** Main URL routing for the project.
+**...**
+
+## Contributing
+
 Contributions are welcome! Fork the repository and create a pull request with your changes.
