@@ -54,7 +54,8 @@ This Django CRUD (Create, Read, Update, Delete) project provides a simple web ap
 3. **The entered data will be displayed below the form.**
 
 ## Project Structure
-**`myapp/:`** Django app containing the main logic.
+
+* **``myapp/:``** Django app containing the main logic.
 
 templates/: HTML templates for rendering views.
 static/: Static files such as CSS stylesheets and JavaScript.
