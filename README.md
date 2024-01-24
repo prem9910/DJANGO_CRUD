@@ -63,11 +63,10 @@ This Django CRUD (Create, Read, Update, Delete) project provides a simple web ap
     * **models.py:** Defines the data models.
     * **...**
 
-**crud_project/:** Project-level settings and configurations.
-
-   * **settings.py:** Django project settings.
-   * **urls.py:** Main URL routing for the project.
-**...**
+* **crud_project/:** Project-level settings and configurations.
+    * **settings.py:** Django project settings.
+    * **urls.py:** Main URL routing for the project.
+    * **...**
 
 ## Contributing
 
