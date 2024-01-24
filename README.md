@@ -13,5 +13,6 @@ This Django CRUD (Create, Read, Update, Delete) project provides a simple web ap
    cd django-crud-project
 
 2. **Create a virtual environment (optional but recommended):**
-
+    
+    ```bash
     python -m venv venv
