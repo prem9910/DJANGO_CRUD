@@ -16,3 +16,53 @@ This Django CRUD (Create, Read, Update, Delete) project provides a simple web ap
     
     ```bash
     python -m venv venv
+
+3. **Activate the virtual environment:**
+
+    * On Windows:
+
+        ```bash
+        .\venv\Scripts\activate
+
+
+    * On macOS/Linux:
+
+        ```bash
+        source venv/bin/activate
+
+4. Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Apply database migrations:
+
+bash
+Copy code
+python manage.py migrate
+Run the development server:
+
+bash
+Copy code
+python manage.py runserver
+Open your browser and visit http://127.0.0.1:8000/ to view the application.
+
+Usage
+Fill in the details in the provided form (name, email, password).
+Submit the form.
+The entered data will be displayed below the form.
+Project Structure
+myapp/: Django app containing the main logic.
+
+templates/: HTML templates for rendering views.
+static/: Static files such as CSS stylesheets and JavaScript.
+views.py: Contains views for rendering pages and handling form submissions.
+models.py: Defines the data models.
+...
+crud_project/: Project-level settings and configurations.
+
+settings.py: Django project settings.
+urls.py: Main URL routing for the project.
+...
+Contributing
+Contributions are welcome! Fork the repository and create a pull request with your changes.
