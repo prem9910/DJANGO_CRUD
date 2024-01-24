@@ -30,29 +30,31 @@ This Django CRUD (Create, Read, Update, Delete) project provides a simple web ap
         ```bash
         source venv/bin/activate
 
-4. Install dependencies:
+4. **Install dependencies:**
 
-bash
-Copy code
-pip install -r requirements.txt
-Apply database migrations:
+    ```bash
+    pip install -r requirements.txt
 
-bash
-Copy code
-python manage.py migrate
-Run the development server:
+5. **Apply database migrations:**
 
-bash
-Copy code
-python manage.py runserver
-Open your browser and visit http://127.0.0.1:8000/ to view the application.
+    ```bash
+    python manage.py migrate
 
-Usage
-Fill in the details in the provided form (name, email, password).
-Submit the form.
-The entered data will be displayed below the form.
-Project Structure
-myapp/: Django app containing the main logic.
+6. **Run the development server:**
+
+    ```bash
+    python manage.py runserver
+
+7. **Open your browser and visit http://127.0.0.1:8000/ to view the application.**
+
+## Usage
+
+1. **Fill in the details in the provided form (name, email, password).**
+2. **Submit the form.**
+3. **The entered data will be displayed below the form.**
+
+## Project Structure
+`myapp/:` Django app containing the main logic.
 
 templates/: HTML templates for rendering views.
 static/: Static files such as CSS stylesheets and JavaScript.
